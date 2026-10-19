@@ -18,6 +18,8 @@ Tjänsteexemplen och sidans texter är förslag, inte bekräftade erbjudanden. I
 
 ## GitHub Pages
 
-Målrepo enligt beställaren: https://github.com/zneckos-cell/sm-el. Projektmappen var inte en Git-checkout. Efter utökad nätverksåtkomst kunde det tomma repot kopplas. Första versionen ligger nu på main. GitHub Pages och egen domän är inte aktiverade. JavaScript-syntax och interna sektionslänkar är kontrollerade; visuell webbläsarkontroll återstår eftersom lokal HTTP-åtkomst blockerades i byggmiljön.
+Målrepo enligt beställaren: https://github.com/zneckos-cell/smael. Projektmappen var inte en Git-checkout. Efter utökad nätverksåtkomst kunde det tomma repot kopplas. Första versionen ligger nu på main. GitHub Pages och egen domän är inte aktiverade. JavaScript-syntax och interna sektionslänkar är kontrollerade; visuell webbläsarkontroll återstår eftersom lokal HTTP-åtkomst blockerades i byggmiljön.
 
 Lägg index.html, style.css, script.js och .nojekyll i repots publiceringsrot. Aktivera GitHub Pages för motsvarande branch och rotmapp. Kontrollera befintligt repoinnehåll först. Lägg till egen domän och CNAME först när exakt domän och DNS-inställningar är bekräftade.
+
+GitHub Pages-adress efter repots namnbyte: https://zneckos-cell.github.io/smael/
