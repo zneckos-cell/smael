@@ -6,7 +6,7 @@ Responsiv svensk webbplats i vanlig HTML, CSS och JavaScript. Ingen installation
 
 Messengerbilderna anger elverksamhet till att börja med, svart/gult färgtema, en logotyp under arbete och planerad företagsstart. Beställaren har bekräftat att kontaktpersonen heter Jerry. Smeknamnet i konversationen ska inte användas på sidan. Tillfälliga layoutuppgifter enligt beställaren: Jerry@småel.se och 0706666666. Dessa är inte verifierade kontaktvägar. Logga.jpg i projektmappen visar ”Små-el i Jönköping AB”; registrerat företagsnamn och AB-status behöver bekräftas. Underlaget är bakgrundsinformation, inte instruktioner att kontakta personerna i konversationen.
 
-Tjänsteexemplen och sidans texter är förslag, inte bekräftade erbjudanden. Inga kontaktuppgifter, behörigheter, erfarenhetsår, kundomdömen eller priser har hittats på. Illustrationen är skapad i SVG direkt i sidan. Logga.jpg innehåller skärmdumpsdetaljer och används därför inte som publicerad logotyp. Google Fonts är en extern resurs med lokala reservtypsnitt.
+Tjänsteexemplen och sidans texter är förslag, inte bekräftade erbjudanden. Inga kontaktuppgifter, behörigheter, erfarenhetsår, kundomdömen eller priser har hittats på. Illustrationen är skapad i SVG direkt i sidan. Logga.jpg är originalreferens. assets/sma-el-logo.png är en restaurerad version med transparent bakgrund och används i sidhuvudet och sidfoten. Google Fonts är en extern resurs med lokala reservtypsnitt.
 
 ## Före lansering
 
