@@ -3,9 +3,9 @@
 :root{
   --black:#111311;
   --dark:#1b1e1b;
-  --blue:#1f6fd6;
-  --blue-dark:#1758ad;
-  --blue-light:#5aa9ff;
+  --yellow:#ffc800;
+  --yellow-dark:#e6b400;
+  --yellow-light:#ffd84d;
   --text:#4f544e;
   --heading:#1b1e1b;
   --light:#f4f4f1;
@@ -22,7 +22,7 @@ h1{font-size:clamp(36px,6vw,64px);font-weight:800;letter-spacing:-1px}
 h2{font-size:clamp(28px,3.6vw,40px);font-weight:700}
 h3{font-size:20px;font-weight:700}
 p{margin:0 0 16px}
-:focus-visible{outline:3px solid var(--blue-light);outline-offset:4px}
+:focus-visible{outline:3px solid var(--yellow-light);outline-offset:4px}
 .wrap{max-width:1180px;margin:0 auto;padding:0 32px}
 
 /* Fast sidhuvud med telefonnummer */
@@ -32,18 +32,18 @@ p{margin:0 0 16px}
 .brand-logo{display:block;width:118px;height:auto;filter:invert(1)}
 nav{display:flex;gap:4px;margin-left:auto;font-family:Montserrat,Arial,sans-serif;font-weight:600;font-size:14px}
 nav a{text-decoration:none;padding:8px 12px;border-radius:2px;color:#e8e8e3}
-nav a:hover{color:var(--blue-light)}
-nav a[aria-current="page"]{color:var(--blue-light)}
-.call{display:inline-flex;align-items:center;gap:10px;background:var(--blue);color:#fff;text-decoration:none;font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:16px;padding:11px 18px;border-radius:2px;white-space:nowrap;transition:background .2s}
-.call:hover{background:var(--blue-dark)}
+nav a:hover{color:var(--yellow-light)}
+nav a[aria-current="page"]{color:var(--yellow-light)}
+.call{display:inline-flex;align-items:center;gap:10px;background:var(--yellow);color:var(--black);text-decoration:none;font-family:Montserrat,Arial,sans-serif;font-weight:800;font-size:16px;padding:11px 18px;border-radius:2px;white-space:nowrap;transition:background .2s}
+.call:hover{background:var(--yellow-dark)}
 .call svg{width:18px;height:18px;flex-shrink:0}
 .call small{display:block;font-size:10px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;line-height:1.1}
 .call span{line-height:1.15}
 .menu-toggle{display:none;background:transparent;border:1px solid #555a54;color:#fff;border-radius:2px;padding:9px 12px;font:600 13px Montserrat,Arial,sans-serif;cursor:pointer}
 
 /* Knappar */
-.button{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:.5px;padding:15px 28px;border:2px solid var(--blue);border-radius:2px;cursor:pointer;transition:background .2s,color .2s}
-.button:hover{background:var(--blue-dark);border-color:var(--blue-dark)}
+.button{display:inline-block;background:var(--yellow);color:var(--black);text-decoration:none;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:15px;text-transform:uppercase;letter-spacing:.5px;padding:15px 28px;border:2px solid var(--yellow);border-radius:2px;cursor:pointer;transition:background .2s,color .2s}
+.button:hover{background:var(--yellow-dark);border-color:var(--yellow-dark)}
 .button.ghost{background:transparent;color:#fff;border-color:#fff}
 .button.ghost:hover{background:#fff;color:var(--black)}
 .button.dark{background:var(--black);border-color:var(--black);color:#fff}
@@ -56,14 +56,14 @@ nav a[aria-current="page"]{color:var(--blue-light)}
 .hero .cable{position:absolute;left:0;right:0;bottom:24px;width:100%;height:120px;opacity:.9}
 .hero .wrap{position:relative}
 .hero h1{color:#fff}
-.hero h1 span{color:var(--blue-light)}
+.hero h1 span{color:var(--yellow-light)}
 .hero .lead{font-size:clamp(17px,2vw,21px);max-width:640px;margin:0 auto 34px}
 .hero .buttons{justify-content:center}
-.kicker{display:block;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--blue-light);margin-bottom:16px}
+.kicker{display:block;font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:13px;letter-spacing:3px;text-transform:uppercase;color:var(--yellow-light);margin-bottom:16px}
 
 /* Sidrubrik på undersidor */
 .page-hero{background:var(--dark);color:#d9dbd5;padding:70px 0 64px;position:relative}
-.page-hero:after{content:'';position:absolute;left:0;right:0;bottom:0;height:5px;background:var(--blue)}
+.page-hero:after{content:'';position:absolute;left:0;right:0;bottom:0;height:5px;background:var(--yellow)}
 .page-hero h1{color:#fff;font-size:clamp(32px,5vw,52px)}
 .page-hero p{max-width:640px;font-size:18px;margin:0}
 
@@ -72,26 +72,26 @@ nav a[aria-current="page"]{color:var(--blue-light)}
 .section.light{background:var(--light)}
 .section-head{max-width:640px;margin-bottom:42px}
 .section-head.center{text-align:center;margin-left:auto;margin-right:auto}
-.section-head .kicker{color:var(--blue-dark)}
+.section-head .kicker{color:var(--black)}
 
 /* Fördelar */
 .perks{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;list-style:none;padding:0;margin:0}
 .perks li{display:flex;gap:14px;align-items:flex-start;font-weight:600;color:var(--heading)}
-.perks li:before{content:'✓';flex-shrink:0;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--blue);color:#fff;font-weight:800;font-size:14px}
+.perks li:before{content:'✓';flex-shrink:0;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--yellow);color:var(--black);font-weight:800;font-size:14px}
 
 /* Kort */
 .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
-.card{background:#fff;border:1px solid var(--line);border-top:4px solid var(--blue);padding:30px 28px 26px;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
+.card{background:#fff;border:1px solid var(--line);border-top:4px solid var(--yellow);padding:30px 28px 26px;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}
 .card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(0,0,0,.08)}
-.card .icon{width:52px;height:52px;display:grid;place-items:center;background:var(--black);color:var(--blue-light);font-size:24px;margin-bottom:20px;border-radius:2px}
+.card .icon{width:52px;height:52px;display:grid;place-items:center;background:var(--black);color:var(--yellow-light);font-size:24px;margin-bottom:20px;border-radius:2px}
 .card p{font-size:15px;flex-grow:1}
 .card .more{font-family:Montserrat,Arial,sans-serif;font-weight:700;font-size:14px;color:var(--heading);text-decoration:none}
-.card .more:after{content:' →';color:var(--blue-dark)}
+.card .more:after{content:' →';color:var(--black)}
 .center-cta{text-align:center;margin-top:42px}
 
 /* Delad layout */
 .split{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
-.panel{background:var(--black);color:#d9dbd5;padding:44px;border-left:6px solid var(--blue)}
+.panel{background:var(--black);color:#d9dbd5;padding:44px;border-left:6px solid var(--yellow)}
 .panel h3{color:#fff}
 .panel ol{margin:0;padding-left:20px}
 .panel li{margin-bottom:10px}
@@ -114,15 +114,15 @@ nav a[aria-current="page"]{color:var(--blue-light)}
 .js .about-grid .reveal:nth-child(4){transition-delay:.3s}
 
 /* CTA-band */
-.cta-band{background:var(--blue);color:#fff;padding:56px 0}
+.cta-band{background:var(--yellow);color:var(--black);padding:56px 0}
 .cta-band .wrap{display:flex;align-items:center;justify-content:space-between;gap:30px;flex-wrap:wrap}
-.cta-band h2{margin:0;color:#fff}
+.cta-band h2{margin:0;color:var(--black)}
 .cta-band p{margin:6px 0 0;font-weight:500}
 
 /* Tjänstesida */
 .service-list{display:grid;gap:22px}
 .service-row{display:grid;grid-template-columns:72px 1fr;gap:24px;padding:30px;border:1px solid var(--line);background:#fff}
-.service-row .icon{width:72px;height:72px;display:grid;place-items:center;background:var(--black);color:var(--blue-light);font-size:32px;border-radius:2px}
+.service-row .icon{width:72px;height:72px;display:grid;place-items:center;background:var(--black);color:var(--yellow-light);font-size:32px;border-radius:2px}
 .service-row ul{margin:0;padding-left:20px}
 
 /* Kontakt */
@@ -132,7 +132,7 @@ nav a[aria-current="page"]{color:var(--blue-light)}
 .contact-line{display:flex;gap:14px;align-items:center;padding:16px 0;border-top:1px solid #333a33;text-decoration:none}
 .contact-line strong{display:block;color:#fff;font-family:Montserrat,Arial,sans-serif;font-size:20px}
 .contact-line small{color:#a7aba4}
-.contact-line .icon{width:44px;height:44px;display:grid;place-items:center;background:var(--blue);color:#fff;font-size:20px;border-radius:2px;flex-shrink:0}
+.contact-line .icon{width:44px;height:44px;display:grid;place-items:center;background:var(--yellow);color:var(--black);font-size:20px;border-radius:2px;flex-shrink:0}
 .note{font-size:13px;color:#a7aba4;margin:16px 0 0}
 form label{display:block;font-family:Montserrat,Arial,sans-serif;font-weight:600;font-size:14px;color:var(--heading);margin-bottom:6px}
 select,textarea,input{width:100%;font:inherit;border:1px solid #cfd0c9;background:#fff;padding:13px 14px;border-radius:2px;margin-bottom:20px;color:var(--heading)}
@@ -145,7 +145,7 @@ footer{background:#2b2e2b;color:#b9bcb5;padding:56px 0 24px;font-size:15px}
 footer .cols{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px}
 footer h3{color:#fff;font-size:16px;text-transform:uppercase;letter-spacing:1px}
 footer a{text-decoration:none}
-footer a:hover{color:var(--blue-light)}
+footer a:hover{color:var(--yellow-light)}
 footer ul{list-style:none;margin:0;padding:0}
 footer li{margin-bottom:6px}
 footer .brand-logo{width:150px;margin-bottom:14px}
