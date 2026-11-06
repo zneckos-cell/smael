@@ -1,6 +1,6 @@
 # Små-el i Jönköping – första webbversion
 
-Responsiv svensk webbplats i vanlig HTML, CSS och JavaScript. Ingen installation eller byggprocess krävs. Öppna index.html eller kör `python -m http.server 8080` i mappen och besök http://localhost:8080.
+Responsiv svensk webbplats i vanlig HTML, CSS och JavaScript, uppdelad på fyra sidor: index.html (kort startsida), tjanster.html, om.html och kontakt.html. Sidhuvudet med telefonnummer ligger fast överst när man scrollar. Layouten är inspirerad av hyrentimme.se (mörk fast meny, stor mörk startbild, tydliga knappar), men med Små-els svart/gula tema och egna texter. Ingen installation eller byggprocess krävs. Öppna index.html eller kör `python -m http.server 8080` i mappen och besök http://localhost:8080.
 
 ## Underlag och öppna frågor
 
@@ -20,6 +20,6 @@ Tjänsteexemplen och sidans texter är förslag, inte bekräftade erbjudanden. I
 
 Målrepo enligt beställaren: https://github.com/zneckos-cell/smael. Projektmappen var inte en Git-checkout. Efter utökad nätverksåtkomst kunde det tomma repot kopplas. Första versionen ligger nu på main. GitHub Pages och egen domän är inte aktiverade. JavaScript-syntax och interna sektionslänkar är kontrollerade; visuell webbläsarkontroll återstår eftersom lokal HTTP-åtkomst blockerades i byggmiljön.
 
-Lägg index.html, style.css, script.js och .nojekyll i repots publiceringsrot. Aktivera GitHub Pages för motsvarande branch och rotmapp. Kontrollera befintligt repoinnehåll först. Lägg till egen domän och CNAME först när exakt domän och DNS-inställningar är bekräftade.
+Lägg alla .html-filer, style.css, script.js, assets/ och .nojekyll i repots publiceringsrot. Aktivera GitHub Pages för motsvarande branch och rotmapp. Kontrollera befintligt repoinnehåll först. Lägg till egen domän och CNAME först när exakt domän och DNS-inställningar är bekräftade.
 
 GitHub Pages-adress efter repots namnbyte: https://zneckos-cell.github.io/smael/
